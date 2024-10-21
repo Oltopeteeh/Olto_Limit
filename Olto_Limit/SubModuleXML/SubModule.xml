@@ -1,0 +1,21 @@
+﻿<Module>
+	<Name value="Olto Mod Limit"/>
+	<Id value="Olto_Limit"/>
+	<Version value="v1.0.0.0"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="StoryMode" />
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value="Olto_Limit"/>
+			<DLLName value="Olto_Limit.dll"/>
+			<SubModuleClassType value="Olto_Limit.Olto_Limit_SubModule"/>
+			<Tags/>
+		</SubModule>
+	</SubModules>
+</Module>
